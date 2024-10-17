@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==================================
+                   custom CSS
+    ==================================== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- ==================================
+                   Remix Icons
+    ==================================== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- ==================================
+                    NAVBAR
+    ==================================== -->
+    <nav>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Mitsu <span> Picture</span></a>
+        <ul class="navlist">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#foto">Download Foto</a></li>
+        </ul>
+        <div id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>        
+      </div>
+    </nav>
+    <!-- ==================================
+                  HOME SECTION
+    ==================================== -->
+    <section class="home" id="home">
+      <div class="container home-container">
+        <div class="left">
+          <h3>Hello, It's Me</h3>
+          <h1><span>Mitsu Picture</span></h1>
+          <h3>And I'm a <span id="artext">Photographer</span></h3>
+          <p>
+            Hallo Semua Perkenalkan Nama Saya Huga Saya Admin Dari Mitsu Picture, Selamat Datang Di Website Saya Jika Anda Ingin Mendownload Foto Kalian Bisa Klik Tombol Di Bawah Yah
+          </p>
+          <div class="social-icons-container">
+            <div class="social-icons">
+              <a href="https://www.instagram.com/mitsu_picture01/" >
+              <i class="ri-instagram-line"></i></a>
+            </div>
+            <a href="#foto">
+              <button class="btn overlay" id="btn">
+                <span>Download Foto</span>
+              </button>
+            </a>         
+          </div>
+        </div>
+        <div class="right">
+          <!-- add your home or profile photo in src from assets/images/  -->
+          <img src="assets/images/Logo1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ==================================
+                  ABOUT SECTION
+    ==================================== -->
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="left">
+          <!-- add your photo in src for About page from assets/images/ -->
+          <img src="assets/images/Logo2.png" alt="" />
+        </div>
+        <div class="right">
+          <div class="title">
+            <h2>About <span>Me</span></h2>
+          </div>
+          <h3>
+            I'm a Photographer
+          </h3>
+          <p>
+            Sebagai seorang fotografer yang berdedikasi, saya memiliki pengalaman yang luas dalam mengabadikan momen berharga dengan estetika yang unik dan kreatif. Dengan latar belakang dalam seni visual dan komposisi, saya telah menghasilkan karya-karya yang memukau dan memikat pandangan. Saya memiliki kemampuan untuk merangkai cerita melalui gambar, serta mampu menghadirkan perasaan dan suasana melalui bidikan saya.
+          </p>
+          <a href="https://drive.google.com/file/d/1-1Pgg2OOIstxPDoQoQrhpamfclYZllE0/view?usp=sharing">
+            <button class="btn overlay">
+              <span>Download CV</span>
+            </button>
+          </a>            
+        </div>
+      </div>
+    </section>
+    <!-- ==================================
+                Download Foto
+    ==================================== -->
+    <section class="foto" id="foto">
+      <div class="title">
+        <h2>Hallow  <span>Guys</span></h2>
+      </div>
+      <div class="container services-container">
+        <div class="box overlay content-1">
+          <div class="content ">
+            <i class="ri-folder-image-line"></i>
+            <h4>Foto Sunmori</h4>
+            <a href="https://drive.google.com/drive/folders/1w4UCcwluOGnUJRmfRfcFXYvdm_0d9C0H?usp=drive_link"><button class="btn">Open</button></a>
+          </div>
+        </div>
+        <div class="box overlay content-1">
+          <div class="content ">
+            <i class="ri-folder-image-line"></i>
+            <h4>Foto Nyoride</h4>
+            <a href="https://drive.google.com/drive/folders/1q8iu6DGQqM-4-SRSvSxLEmvmQKGRK0M8?usp=drive_link"><button class="btn">Open</button></a>
+          </div>
+        </div>
+        <div class="service-row">
+          <div class="box overlay content-2">
+            <div class="content">
+              <i class="ri-whatsapp-line"></i>
+              <h4>WhatsApp</h4>
+              <a href="https://api.whatsapp.com/send?phone=6285179995457" target="_blank">
+                <button class="btn">Open</button>
+            </div>
+          </div>
+          <div class="box overlay content-2">
+            <div class="content">
+              <i class="ri-qr-code-line"></i>
+              <h4>QRIS</h4>
+              <a href="https://drive.google.com/file/d/14B5LmqK7kxuKGhunK9pIKzNntcY0Gt18/view?usp=drive_link" target="_blank">
+                <button class="btn">Open</button>
+            </div>
+          </div>
+          <div class="box overlay content-2">
+            <div class="content">
+              <i class="ri-mail-line"></i>
+              <h4>Email</h4>
+              <a href="mailto:mitsupicture01@gmail.com" target="_blank">
+                <button class="btn">Open</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>       
+   <!-- ==================================
+                CONTACT SECTION
+   ==================================== -->
+   <div class="copyright">
+    <p>Copyright &copy; 2024 by Huga Hazimulfikri Nawawi | All right Reserved.</p>
+   </div>
+
+
+    <!-- ==================================
+                   Scroll Reveal
+    ==================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ==================================
+                   Typed Js
+    ==================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ==================================
+                   custom Js
+    ==================================== -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
